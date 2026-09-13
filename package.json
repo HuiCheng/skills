@@ -1,0 +1,6 @@
+{
+  "name": "skills",
+  "private": true,
+  "description": "Installable agent skills for PR adversarial review and skill evaluation",
+  "license": "MIT"
+}
