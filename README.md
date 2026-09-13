@@ -1,6 +1,6 @@
 # skills
 
-Hui Cheng 的可安装 Agent Skills。兼容 [skills CLI](https://skills.sh) / `npx skills add`。
+Hui Cheng 的可安装 Agent Skills。兼容 [skills CLI](https://skills.sh) / `npx skills@latest add`。
 
 ## Skills
 
@@ -14,26 +14,26 @@ Hui Cheng 的可安装 Agent Skills。兼容 [skills CLI](https://skills.sh) / `
 一次性装两个：
 
 ```bash
-npx skills add HuiCheng/skills --skill '*' -y
+npx skills@latest add HuiCheng/skills --skill '*' -y
 ```
 
 只装其中一个：
 
 ```bash
-npx skills add HuiCheng/skills --skill pr-adversarial-review -y
-npx skills add HuiCheng/skills --skill skill-eval -y
+npx skills@latest add HuiCheng/skills --skill pr-adversarial-review -y
+npx skills@latest add HuiCheng/skills --skill skill-eval -y
 ```
 
 指定 Cursor：
 
 ```bash
-npx skills add HuiCheng/skills -a cursor --skill '*' -y
+npx skills@latest add HuiCheng/skills -a cursor --skill '*' -y
 ```
 
 列出仓库里有哪些 skill：
 
 ```bash
-npx skills add HuiCheng/skills --list
+npx skills@latest add HuiCheng/skills --list
 ```
 
 ## Layout
